@@ -119,5 +119,5 @@ class ST_SCGNN(torch.nn.Module):
         pred = F.softmax(x,1) 
         
         return x, pred
-
+        
     
