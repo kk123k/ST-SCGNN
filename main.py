@@ -6,7 +6,7 @@ import torch
 from torch_geometric.data import DataLoader
 from sklearn.metrics import roc_auc_score, accuracy_score, f1_score
 
-from datapipe import build_dataset, get_dataset
+import build_dataset, get_dataset
 from Net import ST_SCGNN
 
 ##########################################################
